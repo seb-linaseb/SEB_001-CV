@@ -1,0 +1,95 @@
+.container {
+    width: 1024px;
+    margin: auto;
+    height: 175vh;
+    display: flex;
+    flex-direction: column;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.header {
+    height: 20%;
+    display: flex;
+    font-size: 0px;
+    /* background-color: blue; */
+}
+
+.main {
+    height: 60%;
+    font-size: 0px;
+    background-color: green;
+}
+
+.footer {
+    height: 20%;
+    font-size: 0px;
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+/********** HEADER **********/
+
+.header_left {
+    box-sizing: border-box;
+    height: 100%;
+    width: 25%;
+    padding: 1.25rem;
+    font-size: 0rem;
+    letter-spacing: .1rem;
+    background-color: lightblue;
+}
+
+.name_firstname {
+    font-size : 1rem;
+    font-weight: bold;
+}
+
+.marital_status {
+    font-size: 0.6rem;
+}
+
+.address {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.contact {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;   
+}
+
+.contact_row {
+    margin-top: 0.25rem;
+    display: flex;
+    height: 1.25rem;
+    align-items: center;
+}
+
+.contact_logo {
+    width: 10%;
+    height: 100%;
+    margin-right: 0.5rem;
+}
+
+.image_logo {
+    max-height: 100%;
+}
+
+.header_center {
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    background-color: lightpink;
+}
+
+.header_right {
+    box-sizing: border-box;
+    height: 100%;
+    width: 25%;
+    background-color: lightgreen;
+}
