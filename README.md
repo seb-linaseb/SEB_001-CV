@@ -9,7 +9,6 @@ Mon CV
         Etape 1 => Header / Main / Footer
         Etape 2 => Header_Left / Header_Center / Header_Right
         Etape 3 => Identité
-
         Etape 4 => Métier + Spécialisation
         Etape 5 => Photo
         Etape 6 => Main_Left / Main_Right
@@ -17,6 +16,7 @@ Mon CV
         Etape 8 => Main_Right_Top / Main_Right_Bottom
         Etape 9 => Expérience
         Etape 10 => Formation
+
         Etape 11 => Compétences
         Etape 12 => Spécialisation 1
         Etape 13 => Spécialisation 2

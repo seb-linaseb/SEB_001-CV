@@ -1,28 +1,31 @@
 .container {
+    font-size: 0px;
     width: 1024px;
     margin: auto;
     height: 175vh;
     display: flex;
     flex-direction: column;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
     height: 20%;
     display: flex;
-    font-size: 0px;
+    font-size: 0rem;
+    /* letter-spacing: .1rem; */
     /* background-color: blue; */
 }
 
 .main {
     height: 60%;
-    font-size: 0px;
-    background-color: green;
+    display: flex;                  
+    font-size: 0rem;                
+    /* letter-spacing: .1rem;           */
+    /* background-color: green; */
 }
 
 .footer {
     height: 20%;
-    font-size: 0px;
     background-color: red;
 }
 
@@ -37,10 +40,27 @@
     height: 100%;
     width: 25%;
     padding: 1.25rem;
-    font-size: 0rem;
-    letter-spacing: .1rem;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
+
+.header_center {
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    padding: 1.25rem;
+    text-align: center;
+    /* background-color: lightpink; */
+}
+
+.header_right {
+    box-sizing: border-box;
+    height: 100%;
+    width: 25%;
+    padding: 1.25rem;
+    /* background-color: lightgreen; */
+}
+
+/********** HEADER_LEFT **********/
 
 .name_firstname {
     font-size : 1rem;
@@ -54,11 +74,11 @@
 .address {
     font-size: 0.8rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .contact {
     font-size: 0.8rem;
-    margin-top: 1rem;
     display: flex;
     flex-direction: column;   
 }
@@ -71,7 +91,6 @@
 }
 
 .contact_logo {
-    width: 10%;
     height: 100%;
     margin-right: 0.5rem;
 }
@@ -80,16 +99,168 @@
     max-height: 100%;
 }
 
-.header_center {
-    box-sizing: border-box;
-    height: 100%;
-    width: 50%;
-    background-color: lightpink;
+/********** HEADER_CENTER **********/
+
+.cv_title {
+    font-size: 2.4rem;
+    color: rgb(68, 114, 196);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1em;
 }
 
-.header_right {
-    box-sizing: border-box;
+.cv_title_spe {
+    font-size: 1.6rem;
+    margin-top: 1em;
+}
+
+/********** HEADER_RIGHT **********/
+
+.cv_photo {
     height: 100%;
-    width: 25%;
-    background-color: lightgreen;
+}
+
+.photo_seb {
+    width: 75%;
+    margin: 0.5rem 1.5rem;
+}
+
+/********** MAIN **********/
+
+.main_left {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* background-color: lightsalmon; */
+}
+
+.main_right {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    /* background-color: lightskyblue; */
+}
+
+/********** MAIN_LEFT **********/
+
+.main_left_top {
+    box-sizing: border-box;
+    height: 47.5%;
+    width: 100%;
+    padding: 0.5rem;
+    /* background-color: lightcyan; */
+}
+
+.main_left_bottom {
+    box-sizing: border-box;
+    height: 52.5%;
+    width: 100%;
+    padding: 0.5rem;
+    /* background-color: lightsteelblue; */
+}
+
+/********** MAIN_LEFT_TOP **********/
+
+.black_line {
+    border-bottom: 5px solid black;
+    width: 80%;
+}
+
+.category {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 1.25rem;
+}
+
+.experience {
+    font-size: 0.8rem;
+    padding-left: 1.25rem;
+}
+
+.experience_title {
+    margin-top: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(68, 114, 196);
+}
+
+.experience_period {
+    font-size: 0.6rem;
+    margin: 0.12rem 0rem;
+}
+
+.experience_projects {
+    color: rgb(68, 114, 196);
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 0.25rem;
+}
+
+.list_1 {
+    list-style-type: disc;
+    margin-left: 3rem;
+    width: 80%;
+    margin-bottom: 0.25rem;
+}
+
+.list_2 {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+.list_3 {
+    list-style-type: circle;
+    margin-left: 4.5rem;
+    margin-bottom: 0.25rem;
+}
+
+/********** MAIN_LEFT_BOTTOM **********/
+
+.formation_school {
+    font-size: 0.8rem;
+}
+
+.length_time {
+    margin-top: 0.5rem;
+}
+
+/********** MAIN_RIGHT **********/
+
+.main_right_top {
+    box-sizing: border-box;
+    height: 47.5%;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: lightseagreen;
+}
+
+.main_right_bottom {
+    box-sizing: border-box;
+    height: 52.5%;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: lightgoldenrodyellow;
+}
+
+/********** MAIN_RIGHT_TOP **********/
+
+
+
+/********** MAIN_RIGHT_BOTTOM **********/
+
+.black_line__center {
+    border-bottom: 5px solid black;
+    margin: 0 20%;
+}
+
+.category__center {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
 }
