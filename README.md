@@ -16,13 +16,13 @@ Mon CV
         Etape 8 => Main_Right_Top / Main_Right_Bottom
         Etape 9 => Expérience
         Etape 10 => Formation
-
         Etape 11 => Compétences
         Etape 12 => Spécialisation 1
         Etape 13 => Spécialisation 2
         Etape 14 => Spécialisation 3
         Etape 15 => Spécialisation 4
         Etape 16 => Spécialisation 5
+        
         Etape 17 => Informations complémentaires
 
 ## Versions suivantes envisagées

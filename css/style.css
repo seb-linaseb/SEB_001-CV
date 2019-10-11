@@ -236,7 +236,8 @@
     height: 47.5%;
     width: 100%;
     padding: 0.5rem;
-    background-color: lightseagreen;
+    font-size: .8rem;
+    /* background-color: lightseagreen; */
 }
 
 .main_right_bottom {
@@ -244,12 +245,51 @@
     height: 52.5%;
     width: 100%;
     padding: 0.5rem;
-    background-color: lightgoldenrodyellow;
+    font-size: 0.8rem;
+    /* background-color: lightgoldenrodyellow; */
 }
 
 /********** MAIN_RIGHT_TOP **********/
 
+.table {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
 
+.table__center {
+    margin: auto;
+}
+
+.language_icon_cell {
+    box-sizing: border-box;
+    height: 2rem;
+    width: 5rem;
+    padding: 1%;
+    text-align: center;
+}
+
+.language_icon {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.language_name {
+    text-align: center;
+    padding-top: .0625rem;
+    border: .0625rem solid black;
+}
+
+.language_name__empty {
+    border: none;
+}
+
+.method {
+    border-top: .0625rem solid black;
+    border-bottom: .0625rem solid black;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
 
 /********** MAIN_RIGHT_BOTTOM **********/
 
@@ -263,4 +303,44 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.specialisation {
+    text-align: center;
+}
+
+.specialisation_logo {
+    display: flex;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+    height: 30%;
+    text-align: center;
+}
+
+.specialisation_first_cell {
+    width: 40%;
+    /* background-color: red; */
+}
+
+.specialisation_second_cell {
+    width: 60%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.symfo_logo,
+.twig_logo
+{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.list_4 {
+    list-style-type: disc;
+    margin-bottom: .25rem;
+    margin-left: 11rem;
 }
