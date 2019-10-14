@@ -9,7 +9,7 @@
 }
 
 .header {
-    height: 20%;
+    height: 18%;
     display: flex;
     font-size: 0rem;
     /* letter-spacing: .1rem; */
@@ -25,8 +25,11 @@
 }
 
 .footer {
-    height: 20%;
-    background-color: red;
+    height: 15%;
+    /* margin-top: 3rem; */
+    padding: 0.5rem;
+    font-size: .8rem;
+    /* background-color: red; */
 }
 
 .hidden {
@@ -262,7 +265,7 @@
 
 .language_icon_cell {
     box-sizing: border-box;
-    height: 2rem;
+    height: 3rem;
     width: 5rem;
     padding: 1%;
     text-align: center;
@@ -337,10 +340,45 @@
 {
     max-height: 100%;
     max-width: 100%;
+    
+}
+
+.symfo_logo {
+    height: 75%;
+    margin-top: .75rem;
+}
+
+.twig_logo {
+    margin-top: 1.5rem;
 }
 
 .list_4 {
     list-style-type: disc;
     margin-bottom: .25rem;
     margin-left: 11rem;
+}
+
+/********** FOOTER **********/
+
+.black_line__long {
+    border-bottom: 5px solid black;
+}
+
+
+.footer_row {
+    margin-top: 0.25rem;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+}
+
+.contact_logo {
+    height: 100%;
+    width: 15%;
+    margin-right: 0.5rem;
+    text-align: center;
+}
+
+.hobby {
+    font-weight: bold;
 }
