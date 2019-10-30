@@ -2,10 +2,22 @@
 
 Mon CV
 
-## V1 => HTML et CSS
+Pour le voir en ligne => [CV - Sébastien BINAUD](https://dev.linaseb.fr "CV - Sébastien BINAUD")
 
-    CV saisi "en dur"
+## VERSION ACTUELLE
 
-## Versions suivantes envisagées
+### V1.5 => HTML et CSS adaptable tous terminaux
 
-    CV modifiable
+    - Adaptable => s'affiche en totalité quel que soit l'appareil utilisé (illisible sans zoom sur mobile)
+
+## VERSIONS SUIVANTES ENVISAGEES
+
+    - Responsive Web Design
+    - CV modifiable
+
+## ANCIENNES VERSIONS
+
+### V1 => HTML et CSS
+
+    - CV saisi "en dur"
+
