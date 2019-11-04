@@ -1,0 +1,257 @@
+/* Desktop */
+@media screen and (min-width : 1024px) {
+
+    .container {
+
+    }
+    
+    .header {
+        height: 20.16rem; /* 14% */
+        flex-direction: row;
+    }
+    
+    .main {
+        height: 64.8rem; /* 60% */
+    }
+
+    .footer {
+        height: 17.28rem;
+        font-size: 1rem;
+    }
+
+    .hidden {
+
+    }
+
+/********** HEADER **********/
+
+    .header_left {
+        width: 25%;
+    }
+
+    .header_center {
+        width: 50%;
+    }
+
+    .header_right {
+        width: 25%;
+    }
+
+/********** HEADER_LEFT **********/
+
+.name_firstname {
+    font-size : 1.25rem;
+}
+
+.marital_status {
+    font-size: 0.75rem;
+}
+
+.address {
+    font-size: 1rem;
+}
+
+
+.contact {
+    font-size: 1rem;
+}
+
+.contact_row {
+    margin: auto;
+    margin-top: 0.3125rem;
+}
+
+
+
+/********** HEADER_CENTER **********/
+
+
+.cv_title {
+        font-size: 2.8rem;
+        margin-top: 1.25em;
+    }
+    .cv_title_spe {
+        font-size: 1.87rem;
+        margin-top: 1.25em;
+    }
+
+/********** HEADER_RIGHT **********/
+
+    .cv_photo {
+        height: 17.5rem;
+        width: 18.75rem;    
+    }
+    .photo_seb {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+/********** MAIN **********/
+
+
+
+    .main_left {
+        width: 50%;
+    }
+    .main_right {
+        width: 50%;
+    }
+
+
+/********** MAIN_LEFT **********/
+
+    .main_left_top {
+        height: 47.5%;
+    }
+    .main_left_bottom {
+        height: 52.5%;
+    }
+
+/********** MAIN_LEFT_TOP **********/
+
+
+    .category {
+        font-size: 1.5rem;
+    }
+
+    .experience {
+        font-size: 1rem;
+    }
+    
+    .experience_title {
+        font-size: 1.25rem;
+    }
+    
+    .experience_period {
+        font-size: 0.75rem;
+    }
+    
+    .experience_projects {
+        font-size: 1.125rem;
+    }
+    
+    
+    .software {
+        height: 7.5rem;
+        font-size: 1rem;
+    }
+
+    .software_row, .software_row_large {
+        margin-left: 2rem;
+        height: 3rem;
+    }
+
+    .software_logo, .software_logo_large {
+        width: 3.125rem;
+    }
+
+    .image_software {
+        width: 100%;    
+    }
+
+    .list_1 {
+        margin-left: 3.75rem;
+        width: 90%; 
+    }
+
+
+    .list_2 {
+        margin-left: 1.875rem; 
+    }
+
+    .list_3 {
+        margin-left: 5.625rem;
+    }
+
+/********** MAIN_LEFT_BOTTOM **********/
+
+.formation_school {
+    font-size: 1rem;
+}
+
+
+/********** MAIN_RIGHT **********/
+
+
+    .main_right_top {
+        height: 47.5%;
+        font-size: 1rem;
+    }
+    .main_right_bottom {
+        height: 52.5%;
+        font-size: 1rem;
+    }
+
+
+/********** MAIN_RIGHT_BOTTOM **********/
+
+.category__center {
+    font-size: 1.5rem;
+}
+
+
+.specialisation_logo {
+    height: 9.375rem;
+}
+
+.specialisation_first_cell {
+    flex-basis: 40%;
+    height: 9.375rem;
+
+}
+
+
+.specialisation_second_cell {
+    flex-basis: 60%;
+    height: 7.8125rem;
+    padding-top: 1.5625rem;
+}
+
+.symfo_logo, twig_logo {
+    
+}
+
+.symfo_logo {
+    width: 55%;
+    /* margin-top: .9375rem; */
+}
+
+.twig_logo {
+    width: 75%;
+    /* margin-top: 1.875rem; */
+}
+.list_4 {
+    
+    margin-bottom: .3125rem;
+    margin-left: 13.75rem;
+    /* text-align: center; */
+    /* width: 400px; */
+    /* background-color: violet; */
+}
+
+.footer_row {
+    height: 5rem;
+}
+
+
+.hobby_logo, .hobby_logo_large {
+    height: 100%;
+    /* width: 20%; */
+    text-align: center;
+    margin-right: 0.625rem;
+    /* text-align: center; */
+    background-color: violet;
+}
+
+.jump_line {
+    display: inline;
+}
+
+.image_hobby {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width:auto;
+}
+
+}
