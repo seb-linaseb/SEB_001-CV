@@ -10,20 +10,17 @@
 .header {
     display: flex;
     font-size: 0rem;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .main {
-
     display: flex;              
     font-size: 0rem;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .footer {
     padding: 0.625rem;
-    
-    /* margin-bottom: 2rem; */
     /* background-color: red; */
 }
 
@@ -41,7 +38,7 @@
     box-sizing: border-box;
     height: 100%;
     padding: 1.5625rem;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 .header_center {
@@ -49,14 +46,14 @@
     height: 100%;
     padding: 1.5625rem;
     text-align: center;
-    background-color: lightpink;
+    /* background-color: lightpink; */
 }
 
 .header_right {
     box-sizing: border-box;
     height: 100%;
     padding: 1.5625rem;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 }
 
 /********** HEADER_LEFT **********/
@@ -82,7 +79,6 @@
 }
 
 .contact_row {
-    
     display: flex;
     width: 11.875rem;
     height: 1.5625rem;
@@ -104,7 +100,6 @@
     color: rgb(68, 114, 196);
     font-weight: bold;
     text-transform: uppercase;
-
 }
 
 .cv_title_spe {
@@ -121,7 +116,7 @@
 }
 
 .photo_seb {
-    /* box-sizing: border-box; */
+
 }
 
 /********** MAIN **********/
@@ -131,7 +126,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
 }
 
 .main_right {
@@ -139,25 +134,23 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
 }
 
 /********** MAIN_LEFT **********/
 
 .main_left_top {
     box-sizing: border-box;
-    /* height: 47.5%; */
     width: 100%;
     padding: 0.625rem;
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
 }
 
 .main_left_bottom {
     box-sizing: border-box;
-    /* height: 52.5%; */
     width: 100%;
     padding: 0.625rem;
-    background-color: lightsteelblue;
+    /* background-color: lightsteelblue; */
 }
 
 /********** MAIN_LEFT_TOP **********/
@@ -193,63 +186,46 @@
     margin-bottom: 0.3125rem;
 }
 
-.software {
-    
-    
+.software { 
     display: flex;
     flex-direction: column;
-
 }
 
 
-.software_row, .software_row_large {
-    
+.software_row, .software_row_large {  
     margin-top: 0.3125rem;
     display: flex;
     align-items: center;
 }
 
 .software_logo, .software_logo_large {
-
     text-align: center;
-    /* height: 100%; */
-    /* margin-right: 0.625rem; */
-
     display: table-cell;
-    /* vertical-align: middle; */
 }
-
 
 .image_software {
 
 }
 
-
-
 .list_1 {
     list-style-type: disc;
-    /* margin-left: 3.75rem; */
-    /* width: 80%; */
     margin-bottom: 0.3125rem;
 }
 
 .list_2 {
     list-style-type: disc;
     width: 21.875rem;
-    /* max-height: 100%; */
-
-    /* margin-left: 1.875rem; */
 }
 
 .list_3 {
     list-style-type: circle;
-    
     margin-bottom: 0.3125rem;
 }
 
 /********** MAIN_LEFT_BOTTOM **********/
 
 .formation_school {
+
     
 }
 
@@ -261,20 +237,16 @@
 
 .main_right_top {
     box-sizing: border-box;
-    /* height: 47.5%; */
     width: 100%;
-    padding: 0.625rem;
-    
-    background-color: lightseagreen;
+    padding: 0.625rem;  
+    /* background-color: lightseagreen; */
 }
 
 .main_right_bottom {
     box-sizing: border-box;
-    /* height: 52.5%; */
     width: 100%;
     padding: 0.625rem;
-    
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
 }
 
 /********** MAIN_RIGHT_TOP **********/
@@ -345,44 +317,34 @@
     flex-wrap: wrap;
     margin-top: .9375rem;
     margin-bottom: .9375rem;
-    
-    background-color: green;
     text-align: center;
+    /* background-color: green; */
 }
 
 .specialisation_first_cell {
-
-    background-color: red;
+    /* background-color: red; */
 }
 
 .specialisation_second_cell {
-    
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .symfo_logo,
 .twig_logo
 {
-    /* max-height: 100%; */
-    /* max-width: 100%; */
     
 }
 
 .symfo_logo {
-    /* height: 75%; */
-    /* margin-top: .9375rem; */
+
 }
 
 .twig_logo {
-    /* margin-top: 1.875rem; */
+    
 }
 
 .list_4 {
     list-style-type: disc;
-    /* margin-bottom: .3125rem; */
-    /* margin-left: 13.75rem; */
-    /* text-align: center; */
-    /* width: 400px; */
     /* background-color: violet; */
 }
 
@@ -396,9 +358,8 @@
 .footer_row {
     margin-top: 0.3125rem;
     display: flex;
-    
     align-items: center;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .contact_logo {
@@ -414,7 +375,7 @@
 
 .hobby_logo, .hobby_logo_large {
     width: 20%;
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 .hobby_text {
@@ -430,6 +391,3 @@
     list-style-type: disc;
     margin-left: 1.5625rem;
 }
-
-
-/********** RESPONSIVE WEB DESIGN **********/
