@@ -192,24 +192,21 @@
     .specialisation_second_cell {
         flex-basis: 60%;
         height: 7.8125rem;
-        padding-top: 1.5625rem;
     }
 
     .symfo_logo,
     twig_logo {}
 
     .symfo_logo {
-        width: 55%;
+        height: 75%;
     }
 
     .twig_logo {
-        width: 75%;
-    }
+        height: 75%;
+}
 
     .list_4 {
-
         margin-bottom: .3125rem;
-        margin-left: 13.75rem;
         /* background-color: violet; */
     }
 

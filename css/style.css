@@ -343,6 +343,11 @@
     
 }
 
+.symfo_skills {
+    width: 18.75rem;
+    margin: auto;
+}
+
 .list_4 {
     list-style-type: disc;
     /* background-color: violet; */
