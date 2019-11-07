@@ -17,6 +17,7 @@ Pour le voir en ligne => [CV - Sébastien BINAUD](https://dev.linaseb.fr "CV - S
 ## VERSIONS SUIVANTES ENVISAGEES
 
     - Amélioration / Optimisation du Responsive
+      - Revoir notamment les logos Symfo + Twig en mode "Tablet"
     - CV modifiable
 
 ## ANCIENNES VERSIONS
