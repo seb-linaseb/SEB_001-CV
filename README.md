@@ -6,16 +6,25 @@ Pour le voir en ligne => [CV - Sébastien BINAUD](https://dev.linaseb.fr "CV - S
 
 ## VERSION ACTUELLE
 
-### V1.5 => HTML et CSS adaptable tous terminaux
+### V2 => HTML et CSS - Responsive
 
-    - Adaptable => s'affiche en totalité quel que soit l'appareil utilisé (illisible sans zoom sur mobile)
+    - Responsive
+      - < 480px => 1 colonne sur toute la hauteur
+      - < 1 024px => 2 colonnes header + 1 colonne sur le reste de la hauteur
+      - > 1 024px => 3 colonnes header + 2 colonnes main + 1 colonne footer
+
 
 ## VERSIONS SUIVANTES ENVISAGEES
 
-    - Responsive Web Design
+    - Amélioration / Optimisation du Responsive
+      - Revoir notamment les logos Symfo + Twig en mode "Tablet"
     - CV modifiable
 
 ## ANCIENNES VERSIONS
+
+### V1.5 => HTML et CSS adaptable tous terminaux
+
+    - Adaptable => s'affiche en totalité quel que soit l'appareil utilisé (zoom / dézoom nécessaire)
 
 ### V1 => HTML et CSS
 
