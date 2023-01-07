@@ -109,14 +109,12 @@
 /********** HEADER_RIGHT **********/
 
 .cv_photo {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    /* width: 100%; */
+    text-align: right;
+    height: 100%;
 }
 
 .photo_seb {
-
+    height: 100%;
 }
 
 /********** MAIN **********/

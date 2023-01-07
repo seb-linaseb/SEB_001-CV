@@ -58,7 +58,6 @@
     }
 
     .contact_row {
-        margin: auto;
         margin-top: 0.3125rem;
     }
 
@@ -75,14 +74,9 @@
 
     /********** HEADER_RIGHT **********/
 
-    .cv_photo {
-        height: 17.5rem;
-        width: 18.75rem;
-    }
+    .cv_photo {}
 
-    .photo_seb {
-        min-width: 100%;
-    }
+    .photo_seb {}
 
     /********** MAIN **********/
 
@@ -187,8 +181,7 @@
         padding-top: .125rem;
     }
 
-    .symfo_logo,
-    twig_logo {
+    .symfo_logo, .twig_logo {
     }
 
     .symfo_logo {
