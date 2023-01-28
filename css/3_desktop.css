@@ -9,11 +9,11 @@
     }
 
     .main {
-        height: 64.8rem; /* 60% */
+        /* height: 64.8rem; /* 60% */
     }
 
     .footer {
-        height: 17.28rem;
+        /* height: 17.28rem; */
         font-size: 1rem;
     }
 
@@ -90,11 +90,11 @@
     /********** MAIN_LEFT **********/
 
     .main_left_top {
-        height: 47.5%;
+        height: 35rem;
     }
 
     .main_left_bottom {
-        height: 52.5%;
+        height: 35rem;
     }
 
     /********** MAIN_LEFT_TOP **********/
@@ -160,12 +160,12 @@
     /********** MAIN_RIGHT **********/
 
     .main_right_top {
-        height: 47.5%;
+        height: 35rem;
         font-size: 1rem;
     }
 
     .main_right_bottom {
-        height: 52.5%;
+        height: 35rem;
         font-size: 1rem;
     }
 

@@ -20,7 +20,7 @@
 }
 
 .footer {
-    padding: 0.625rem;
+    padding: 1.5625rem;
     /* background-color: red; */
 }
 
@@ -140,14 +140,14 @@
 .main_left_top {
     box-sizing: border-box;
     width: 90%;
-    padding: 0.625rem;
+    padding: 1.5625rem;
     /* background-color: lightcyan; */
 }
 
 .main_left_bottom {
     box-sizing: border-box;
     width: 90%;
-    padding: 0.625rem;
+    padding: 1.5625rem;
     /* background-color: lightsteelblue; */
 }
 
@@ -155,7 +155,7 @@
 
 .black_line {
     border-bottom: .390625rem solid black;
-    width: 80%;
+    width: 85%;
 }
 
 .category {
@@ -237,18 +237,22 @@
 .main_right_top {
     box-sizing: border-box;
     width: 90%;
-    padding: 0.625rem;  
+    padding: 1.5625rem;
     /* background-color: lightseagreen; */
 }
 
 .main_right_bottom {
     box-sizing: border-box;
     width: 90%;
-    padding: 0.625rem;
+    padding: 1.5625rem;
     /* background-color: lightgoldenrodyellow; */
 }
 
 /********** MAIN_RIGHT_TOP **********/
+
+.black_line__skills {
+    border-bottom: .390625rem solid black;
+}
 
 .ability {
 
@@ -319,21 +323,24 @@
 }
 
 .specialisation_logo {
+    box-sizing: content-box;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: .9375rem;
-    margin-bottom: .9375rem;
+    min-height: 10.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
     /* background-color: green; */
 }
 
-.specialisation_first_cell {
-    /* background-color: red; */
-}
+/* .specialisation_first_cell {
+    background-color: red;
+} */
 
-.specialisation_second_cell {
-    /* background-color: blue; */
-}
+/* .specialisation_second_cell {
+    background-color: blue;
+} */
 
 .symfo_logo,
 .twig_logo
@@ -367,7 +374,7 @@
 
 
 .footer_row {
-    margin-top: 0.3125rem;
+    margin-top: 0.9375rem;
     display: flex;
     align-items: center;
     /* background-color: green; */
@@ -385,7 +392,7 @@
 }
 
 .hobby_logo, .hobby_logo_large {
-    width: 20%;
+    width: 10%;
     /* background-color: violet; */
 }
 
