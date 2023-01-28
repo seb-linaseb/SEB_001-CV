@@ -4,7 +4,7 @@
     .container {}
 
     .header {
-        height: 20.16rem; /* 14% */
+        height: 18rem; /* 14% */
         flex-direction: row;
     }
 
@@ -176,7 +176,7 @@
     }
 
     .specialisation_logo {
-        height: 9.375rem;
+        height: 5rem;
     }
 
     /* .specialisation_first_cell {
@@ -193,11 +193,13 @@
     .symfo_logo, .twig_logo {}
 
     .symfo_logo {
-        height: 75%;
+        height: 70%;
+        width: 50%;
     }
 
     .twig_logo {
         height: 75%;
+        width: 70%;
 }
 
     .list_4 {
@@ -211,9 +213,11 @@
 
     .hobby_logo,
     .hobby_logo_large {
+        width: 20%;
         height: 100%;
         text-align: center;
-        margin-right: 0.625rem;
+
+
         /* background-color: violet; */
     }
 
@@ -222,10 +226,25 @@
     }
 
     .image_hobby {
+        display: block;
+        margin: auto;
         max-height: 100%;
         max-width: 100%;
         height: auto;
         width: auto;
+    }
+
+}
+
+@media screen and (min-width : 1439px) {
+    .main_right_top {
+        width: 95%;
+    }
+
+    .hobby_logo,
+    .hobby_logo_large {
+        width: 15%;
+        /* background-color: violet; */
     }
 
 }

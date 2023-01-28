@@ -23,13 +23,14 @@
     /********** HEADER **********/
 
     .header_left {
-        height: 20.16rem; /* 14% */
+        width: 100%;
         order: 2;
         flex-basis: 50%;
     }
 
     .header_center {
         order: 1;
+        width: 100%;
         flex-basis: 100%;
     }
 
@@ -37,6 +38,7 @@
         height: 20.16rem; /* 14% */
         order: 2;
         flex-basis: 50%;
+        padding-right: 0;
     }
 
     /********** HEADER_LEFT **********/
@@ -76,7 +78,9 @@
 
     .cv_photo {}
 
-    .photo_seb {}
+    .photo_seb {
+        max-width: 75%;
+    }
 
     /********** MAIN **********/
 
@@ -90,10 +94,30 @@
 
     /********** MAIN_LEFT **********/
 
+    .main_left_top {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .main_left_bottom {
+        width: 100%;
+        padding: 0;
+    }
+
     /********** MAIN_LEFT_TOP **********/
+
+
+    .black_line, .black_line__skills, .black_line__center, .black_line__long {
+        width: 98%;
+        margin-top: 1rem;
+        margin-left: 1%;
+        padding-bottom: 2%;
+    }
 
     .category {
         font-size: 1.5rem;
+        padding-left: 0;
+        text-align: center;
     }
 
     .experience {
@@ -154,10 +178,15 @@
 
     .main_right_top {
         font-size: 1rem;
+        width: 100%;
+        padding: 0;
+
     }
 
     .main_right_bottom {
         font-size: 1rem;
+        width: 100%;
+        padding: 0;
     }
 
     /********** MAIN_RIGHT_BOTTOM **********/
@@ -185,7 +214,7 @@
     }
 
     .symfo_logo {
-        height: 75%;
+        width: 70%;
     }
 
     .twig_logo {
@@ -207,8 +236,7 @@
     .hobby_logo,
     .hobby_logo_large {
         height: 100%;
-        text-align: center;
-        margin-right: 0.625rem;
+        width: 12rem;
         /* background-color: violet; */
     }
 
@@ -222,8 +250,9 @@
     }
 
     .image_hobby {
-        max-height: 85%;
-        max-width: 100%;
+        display: block;
+        margin: auto;
+        max-height: 100%;
         height: auto;
         width: auto;
     }

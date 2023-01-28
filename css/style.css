@@ -110,11 +110,15 @@
 
 .cv_photo {
     text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
 }
 
 .photo_seb {
-    height: 100%;
+    min-height: 100%;
+    max-width: 100%;
 }
 
 /********** MAIN **********/
@@ -236,14 +240,14 @@
 
 .main_right_top {
     box-sizing: border-box;
-    width: 90%;
+    width: 100%;
     padding: 1.5625rem;
     /* background-color: lightseagreen; */
 }
 
 .main_right_bottom {
     box-sizing: border-box;
-    width: 90%;
+    width: 100%;
     padding: 1.5625rem;
     /* background-color: lightgoldenrodyellow; */
 }
@@ -255,7 +259,6 @@
 }
 
 .ability {
-
 }
 
 .ability_line {
@@ -265,7 +268,7 @@
     justify-content: space-between;
 }
 
-.ability_line_center {
+.ability_line_center, .ability_method_line_center {
     justify-content: space-around;
 }
 
@@ -326,11 +329,12 @@
     box-sizing: content-box;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     min-height: 10.5rem;
     margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     text-align: center;
+    align-items: center;
     /* background-color: green; */
 }
 
@@ -392,7 +396,6 @@
 }
 
 .hobby_logo, .hobby_logo_large {
-    width: 10%;
     /* background-color: violet; */
 }
 

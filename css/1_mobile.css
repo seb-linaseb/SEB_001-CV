@@ -19,6 +19,7 @@
     .footer {
         height: 12.28rem;
         font-size: 0.8rem;
+        padding: 0;
     }
 
     /********** HEADER **********/
@@ -36,6 +37,7 @@
     .header_right {
         width: 100%;
         order: 2;
+        padding:  0 1.5625rem;
     }
 
     /********** HEADER_LEFT **********/
@@ -53,7 +55,9 @@
     }
 
     .contact {
-        font-size: 0.64rem;
+        font-size: 0.8rem;
+        align-items: center;
+        padding-left: 15%;
     }
 
     .contact_row {
@@ -75,7 +79,9 @@
 
     .cv_photo {}
 
-    .photo_seb {}
+    .photo_seb {
+        min-width: 50%;
+    }
 
     /********** MAIN **********/
 
@@ -89,10 +95,29 @@
 
     /********** MAIN_LEFT **********/
 
+    .main_left_top {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .main_left_bottom {
+        width: 100%;
+        padding: 0;
+    }
+
     /********** MAIN_LEFT_TOP **********/
+
+    .black_line, .black_line__skills, .black_line__center, .black_line__long {
+        width: 98%;
+        margin-top: 1rem;
+        margin-left: 1%;
+        padding-bottom: 2%;
+    }
 
     .category {
         font-size: 1.2rem;
+        padding-left: 0;
+        text-align: center;
     }
 
     .experience {
@@ -121,7 +146,7 @@
     }
 
     .software_row_large {
-        height: 3rem;
+        height: 1.5rem;
     }
 
     .software_logo {
@@ -130,7 +155,7 @@
 
     .software_logo_large {
         width: 3.125rem;
-        margin-top: -1.5rem;
+        /* margin-top: -1.5rem; */
     }
 
     .image_software {
@@ -166,12 +191,34 @@
 
     .main_right_top {
         font-size: 0.8rem;
+        width: 100%;
+        padding: 0;
     }
 
     .main_right_bottom {
         font-size: 0.8rem;
+        width: 100%;
+        padding: 0;
     }
 
+    /********** MAIN_RIGHT_TOP **********/
+
+    .ability_line {
+        flex-wrap: wrap;
+        min-height: 12rem;
+        justify-content: space-around;
+    }
+
+    .ability_line_center {
+        flex-wrap: wrap;
+        min-height: 6rem;
+    }
+
+    .ability_method_line_center {
+        min-height: 6rem;
+    }
+
+    
     /********** MAIN_RIGHT_BOTTOM **********/
 
     .category__center {
@@ -179,8 +226,7 @@
     }
 
     .specialisation_logo {
-        height: 5rem;
-        margin-bottom: 1.875rem;
+        min-height: 2rem;
     }
 
     /* .specialisation_first_cell {
@@ -213,11 +259,15 @@
         height: 3rem;
     }
 
+    .logo {
+        margin-left: 5%;
+    }
+
     .hobby_logo,
     .hobby_logo_large {
+        width: 30%;
         height: 100%;
         text-align: center;
-        margin-right: 0.625rem;
         /* background-color: violet; */
     }
 
@@ -231,10 +281,26 @@
     }
 
     .image_hobby {
-        max-height: 85%;
-        max-width: 95%;
-        height: auto;
-        width: auto;
+        display: block;
+        margin: auto;
+        max-height: 100%;
     }
 
 }
+
+@media screen and (max-width : 365px) {
+    .ability_method_line_center {
+        min-height: 12rem;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .symfo_skills {
+        padding: 10%;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+}
+
