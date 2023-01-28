@@ -183,16 +183,16 @@
         margin-bottom: 1.875rem;
     }
 
-    .specialisation_first_cell {
+    /* .specialisation_first_cell {
         flex-basis: 40%;
         height: 5rem;
-    }
+    } */
 
-    .specialisation_second_cell {
+    /* .specialisation_second_cell {
         flex-basis: 60%;
         height: 4.6875rem;
         padding-top: .3125rem;
-    }
+    } */
 
     .symfo_logo, .twig_logo {}
 

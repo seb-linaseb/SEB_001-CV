@@ -179,16 +179,16 @@
         height: 9.375rem;
     }
 
-    .specialisation_first_cell {
+    /* .specialisation_first_cell {
         flex-basis: 40%;
         height: 9.375rem;
 
-    }
+    } */
 
-    .specialisation_second_cell {
+    /* .specialisation_second_cell {
         flex-basis: 60%;
         height: 7.8125rem;
-    }
+    } */
 
     .symfo_logo, .twig_logo {}
 
