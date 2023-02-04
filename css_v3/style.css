@@ -1,0 +1,414 @@
+.container {
+    font-size: 0px;
+    /* width: 100vw; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    font-size: 0rem;
+    /* background-color: blue; */
+}
+
+.main {
+    display: flex;              
+    font-size: 0rem;
+    /* background-color: green; */
+}
+
+.footer {
+    padding: 1.5625rem;
+    /* background-color: red; */
+}
+
+.hidden {
+    display: none;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+/********** HEADER **********/
+
+.header_left {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 1.5625rem;
+    /* background-color: lightblue; */
+}
+
+.header_center {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 1.5625rem;
+    text-align: center;
+    /* background-color: lightpink; */
+}
+
+.header_right {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 1.5625rem;
+    /* background-color: lightgreen; */
+}
+
+/********** HEADER_LEFT **********/
+
+.name_firstname {
+    font-size : 1.25rem;
+    font-weight: bold;
+}
+
+.marital_status {
+    font-size: 0.75rem;
+}
+
+.address {
+    font-size: 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column; 
+}
+
+.contact_row {
+    display: flex;
+    width: 11.875rem;
+    height: 1.5625rem;
+    align-items: center;
+}
+
+.contact_logo {
+    height: 100%;
+    margin-right: 0.625rem;
+}
+
+.image_logo {
+    max-height: 100%;
+}
+
+/********** HEADER_CENTER **********/
+
+.cv_title {
+    color: rgb(68, 114, 196);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cv_title_spe {
+    
+}
+
+/********** HEADER_RIGHT **********/
+
+.cv_photo {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.photo_seb {
+    min-height: 100%;
+    max-width: 100%;
+}
+
+/********** MAIN **********/
+
+.main_left {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* background-color: lightsalmon; */
+}
+
+.main_right {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* background-color: lightskyblue; */
+}
+
+/********** MAIN_LEFT **********/
+
+.main_left_top {
+    box-sizing: border-box;
+    width: 90%;
+    padding: 1.5625rem;
+    /* background-color: lightcyan; */
+}
+
+.main_left_bottom {
+    box-sizing: border-box;
+    width: 90%;
+    padding: 1.5625rem;
+    /* background-color: lightsteelblue; */
+}
+
+/********** MAIN_LEFT_TOP **********/
+
+.black_line {
+    border-bottom: .390625rem solid black;
+    width: 85%;
+}
+
+.category {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 1.5625rem;
+}
+
+.experience {
+    padding-left: 1.5625rem;
+}
+
+.experience_title {
+    margin-top: 0.9375rem;
+    font-weight: bold;
+    color: rgb(68, 114, 196);
+}
+
+.experience_period {
+    margin: 0.15rem 0rem;
+}
+
+.experience_projects {
+    color: rgb(68, 114, 196);
+    font-style: italic;
+    margin-bottom: 0.3125rem;
+}
+
+.software { 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.software_row, .software_row_large {  
+    margin-top: 0.3125rem;
+    display: flex;
+    align-items: center;
+}
+
+.software_logo, .software_logo_large {
+    text-align: center;
+    display: table-cell;
+}
+
+.image_software {
+
+}
+
+.list_1 {
+    list-style-type: disc;
+    margin-bottom: 0.3125rem;
+    width: 68%;
+}
+
+.list_2 {
+    list-style-type: disc;
+    width: 68%;
+}
+
+.list_3 {
+    list-style-type: circle;
+    margin-bottom: 0.3125rem;
+}
+
+/********** MAIN_LEFT_BOTTOM **********/
+
+.formation_school {
+
+    
+}
+
+.length_time {
+    margin-top: 0.625rem;
+}
+
+/********** MAIN_RIGHT **********/
+
+.main_right_top {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1.5625rem;
+    /* background-color: lightseagreen; */
+}
+
+.main_right_bottom {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1.5625rem;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+/********** MAIN_RIGHT_TOP **********/
+
+.black_line__skills {
+    border-bottom: .390625rem solid black;
+}
+
+.ability {
+}
+
+.ability_line {
+    box-sizing: content-box;
+    display: flex;
+    min-height: 6rem;
+    justify-content: space-between;
+}
+
+.ability_line_center, .ability_method_line_center {
+    justify-content: space-around;
+}
+
+.language_icon_cell {
+    height: 3.75rem;
+    width: 5.25rem;
+    min-width: 4.25rem;
+    padding: 1%;
+    text-align: center;
+}
+
+.language_icon {
+    box-sizing: content-box;
+    max-width: 100%;
+    height: 100%;
+}
+
+.language_name {
+    text-align: center;
+    padding-top: .078125rem;
+    border: .078125rem solid black;
+}
+
+.language_name__empty {
+    border: none;
+}
+
+.method {
+    border-top: .078125rem solid black;
+    border-bottom: .078125rem solid black;
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-bottom: .625rem;
+}
+
+/********** MAIN_RIGHT_BOTTOM **********/
+
+.black_line__center {
+    border-bottom: .390625rem solid black;
+    margin: 0 20%;
+}
+
+.category__center {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.specialisation {
+    text-align: center;
+}
+
+.specialisation_logo {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    min-height: 10.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+    /* background-color: green; */
+}
+
+/* .specialisation_first_cell {
+    background-color: red;
+} */
+
+/* .specialisation_second_cell {
+    background-color: blue;
+} */
+
+.symfo_logo,
+.twig_logo
+{
+    
+}
+
+.symfo_logo {
+
+}
+
+.twig_logo {
+    
+}
+
+.symfo_skills {
+    width: 18.75rem;
+    margin: auto;
+}
+
+.list_4 {
+    list-style-type: disc;
+    /* background-color: violet; */
+}
+
+/********** FOOTER **********/
+
+.black_line__long {
+    border-bottom: .390625rem solid black;
+}
+
+
+.footer_row {
+    margin-top: 0.9375rem;
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.contact_logo {
+    height: 100%;
+    width: 15%;
+    margin-right: 0.625rem;
+    text-align: center;
+}
+
+.hobby {
+    font-weight: bold;
+}
+
+.hobby_logo, .hobby_logo_large {
+    /* background-color: violet; */
+}
+
+.hobby_text {
+    width: 80%;
+}
+
+.image_hobby {
+    margin: auto;
+}
+
+
+.list_5 {
+    list-style-type: disc;
+    margin-left: 1.5625rem;
+}
